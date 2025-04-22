@@ -22,7 +22,7 @@ module.exports = {
         proxy: [
             {
                 context: ["/PhoneBookServletApiMarch2025/api"],
-                target: "http://localhost:8085"
+                target: "http://localhost:8080"
             }
         ]
     },
